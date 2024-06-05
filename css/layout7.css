@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+
+}
+.container .main
+{   
+    background-color: orange;
+    width: 100%;
+    border: 2px solid black;
+    height: 200px;
+}
+.container .header{
+    display: flex;
+}
+.container .main h1
+{
+    text-align: center;
+    float: left;
+    padding-left: 100px;
+    color: white;
+}
+
+.header .logo{
+    width: 20px;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+}
+.logo img{
+    height: 90px;
+    padding-left: 10%;
+}
+.header .menu{
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 80px;
+}
+.menu a{
+    padding-left: 10px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.header .phone{
+    width: 20%;
+    margin-top: 20px;   
+}
+.header h1{
+    color: azure;
+}
+.phone i{
+    margin-top: 10px;
+    float: left;
+}
+.phone .right{
+    float: right;
+}
+.container .middle{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+.middle .map{
+    float: left;
+    width: 50%;
+}
+.map img{
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 200px;
+}
+.middle .get{
+    margin-top: 10px;
+    width: 50%;
+    color: orange;
+}
+.container .write{
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid black;
+}
+.write h6{
+    background-color: pink;
+    text-align: center;
+}
+.write h1{
+    text-align: center;
+}
+.write .message{
+    text-align: center;
+}
+.message .form{
+    width: 100%;
+    margin-top: 10px;
+}
+.form input{
+    padding: 10px;
+    background-color: rgb(241, 218, 222);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.message .form2{
+    margin-top: 10px;
+}
+.message .form2 input{
+
+    padding: 25px;
+    width: 275px;
+    background-color: rgb(241, 218, 222);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.message button{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: red;
+    padding: 10px;
+}
